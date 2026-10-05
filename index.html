@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kebijakan Privasi - EcoTrack</title>
+
+  <meta
+    name="description"
+    content="Kebijakan Privasi aplikasi EcoTrack."
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f2f8f5;
+      color: #263b32;
+      line-height: 1.7;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #0d9b63, #08794d);
+      color: white;
+      padding: 45px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 42px;
+      margin-bottom: 8px;
+    }
+
+    .header h1 {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      opacity: 0.9;
+      font-size: 15px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+
+    .content {
+      background: white;
+      border-radius: 18px;
+      padding: 35px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    }
+
+    .intro {
+      background: #e9f8f1;
+      border-left: 5px solid #0d9b63;
+      padding: 18px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #08794d;
+      font-size: 21px;
+      margin-bottom: 12px;
+    }
+
+    h3 {
+      color: #176c4d;
+      font-size: 17px;
+      margin: 15px 0 8px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    ul,
+    ol {
+      margin: 10px 0 10px 25px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .contact {
+      background: #f0faf6;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #d8eee4;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 25px 20px;
+      color: #6b7d74;
+      font-size: 14px;
+    }
+
+    .footer strong {
+      color: #0d9b63;
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        padding: 35px 15px;
+      }
+
+      .header h1 {
+        font-size: 25px;
+      }
+
+      .logo {
+        font-size: 36px;
+      }
+
+      .container {
+        margin: 20px auto;
+        padding: 0 12px;
+      }
+
+      .content {
+        padding: 22px 18px;
+        border-radius: 14px;
+      }
+
+      h2 {
+        font-size: 19px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">🌱</div>
+    <h1>EcoTrack</h1>
+    <p>Kebijakan Privasi</p>
+    <p>Terakhir diperbarui: 5 Oktober 2026</p>
+  </header>
+
+  <main class="container">
+    <article class="content">
+
+      <div class="intro">
+        <strong>Selamat datang di EcoTrack.</strong>
+        <p>
+          EcoTrack adalah aplikasi mobile yang membantu pengguna mencatat
+          aktivitas ramah lingkungan, mengumpulkan Eco Point/XP,
+          menyelesaikan misi, mendapatkan achievement, dan memperoleh
+          rekomendasi melalui fitur Eco AI.
+        </p>
+      </div>
+
+      <section>
+        <h2>1. Informasi yang Dikumpulkan</h2>
+
+        <h3>A. Informasi Profil</h3>
+        <p>
+          EcoTrack dapat menyimpan informasi profil yang diberikan oleh
+          pengguna, seperti:
+        </p>
+
+        <ul>
+          <li>Nama pengguna</li>
+          <li>Alamat email, jika diisi</li>
+          <li>Informasi profil lainnya yang diberikan pengguna</li>
+        </ul>
+
+        <p>
+          EcoTrack tidak mewajibkan pengguna membuat akun online untuk
+          menggunakan fitur utama aplikasi.
+        </p>
+
+        <h3>B. Data Aktivitas</h3>
+
+        <p>
+          Pengguna dapat mencatat berbagai aktivitas ramah lingkungan,
+          seperti menggunakan tumbler, menggunakan transportasi umum,
+          memilah sampah, menghemat energi, dan menghemat air.
+        </p>
+
+        <p>Data aktivitas dapat mencakup:</p>
+
+        <ul>
+          <li>Nama aktivitas</li>
+          <li>Kategori aktivitas</li>
+          <li>Tanggal aktivitas</li>
+          <li>Jumlah Eco Point/XP</li>
+          <li>Catatan aktivitas, jika tersedia</li>
+        </ul>
+
+        <h3>C. Data Gamifikasi</h3>
+
+        <p>
+          Untuk menyediakan fitur permainan, EcoTrack dapat menyimpan:
+        </p>
+
+        <ul>
+          <li>Total Eco Point/XP</li>
+          <li>Level pengguna</li>
+          <li>Progress level</li>
+          <li>Achievement atau badge</li>
+          <li>Streak</li>
+          <li>Progress misi harian</li>
+          <li>Progress tantangan mingguan</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>2. Cara Data Disimpan</h2>
+
+        <p>
+          Data utama EcoTrack disimpan secara lokal pada perangkat pengguna
+          menggunakan SQLite.
+        </p>
+
+        <p>
+          Data tersebut digunakan untuk menyimpan profil, aktivitas,
+          Eco Point/XP, target, serta progress aplikasi.
+        </p>
+
+        <p>
+          EcoTrack tidak menjual atau menyewakan data pribadi pengguna
+          kepada pihak lain.
+        </p>
+      </section>
+
+      <section>
+        <h2>3. Penggunaan Eco AI</h2>
+
+        <p>
+          EcoTrack memiliki fitur <strong>Eco AI / Eco Mentor</strong>
+          yang memberikan informasi dan rekomendasi mengenai kebiasaan
+          ramah lingkungan.
+        </p>
+
+        <p>
+          Eco AI menggunakan teknologi
+          <strong>Large Language Model (LLM)</strong> melalui layanan
+          Google Gemini API.
+        </p>
+
+        <p>
+          Ketika pengguna menggunakan Eco AI, aplikasi dapat mengirimkan
+          konteks yang diperlukan untuk menghasilkan jawaban, seperti:
+        </p>
+
+        <ul>
+          <li>Nama pengguna</li>
+          <li>Jumlah aktivitas</li>
+          <li>Total Eco Point/XP</li>
+          <li>Beberapa aktivitas terbaru</li>
+          <li>Pertanyaan atau pesan yang dikirimkan pengguna</li>
+        </ul>
+
+        <p>
+          Informasi tersebut digunakan untuk menghasilkan respons AI yang
+          lebih relevan dengan progress pengguna.
+        </p>
+
+        <p>
+          Pengguna disarankan untuk tidak memasukkan informasi sensitif
+          atau rahasia ke dalam percakapan dengan Eco AI.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. Penggunaan Data</h2>
+
+        <p>Data digunakan untuk:</p>
+
+        <ol>
+          <li>Menampilkan profil pengguna.</li>
+          <li>Menyimpan aktivitas ramah lingkungan.</li>
+          <li>Menghitung Eco Point/XP.</li>
+          <li>Menentukan level pengguna.</li>
+          <li>Mengelola achievement dan badge.</li>
+          <li>Menghitung streak dan progress misi.</li>
+          <li>Menampilkan statistik pengguna.</li>
+          <li>Menentukan progress target mingguan.</li>
+          <li>Memberikan rekomendasi melalui Eco AI.</li>
+          <li>Meningkatkan pengalaman penggunaan aplikasi.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>5. Berbagi Data dengan Pihak Ketiga</h2>
+
+        <p>
+          EcoTrack tidak menjual data pribadi pengguna.
+        </p>
+
+        <p>
+          Namun, fitur Eco AI dapat menggunakan layanan pihak ketiga,
+          yaitu Google Gemini API, untuk memproses permintaan AI.
+        </p>
+
+        <p>
+          EcoTrack tidak mengirimkan seluruh database SQLite pengguna
+          ke layanan AI. Aplikasi hanya mengirimkan informasi yang
+          diperlukan untuk menghasilkan respons Eco AI.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Keamanan Data</h2>
+
+        <p>
+          EcoTrack berupaya menjaga keamanan informasi pengguna dengan
+          menyimpan data aplikasi secara lokal pada perangkat dan
+          membatasi penggunaan data sesuai dengan fungsi aplikasi.
+        </p>
+
+        <p>
+          Namun, pengguna perlu memahami bahwa tidak ada metode
+          penyimpanan atau transmisi elektronik yang dapat dijamin
+          100% aman.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Penghapusan Data</h2>
+
+        <p>
+          Pengguna dapat menghapus data profil dan data aktivitas melalui
+          fitur yang tersedia dalam aplikasi, apabila fitur tersebut
+          tersedia pada versi aplikasi yang digunakan.
+        </p>
+
+        <p>
+          Karena sebagian besar data EcoTrack disimpan secara lokal,
+          pengguna juga dapat menghapus data aplikasi melalui pengaturan
+          perangkat Android.
+        </p>
+
+        <p>
+          Menghapus data aplikasi dapat menyebabkan data lokal EcoTrack,
+          termasuk aktivitas, XP, level, achievement, dan progress lainnya,
+          ikut terhapus.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Anak-Anak</h2>
+
+        <p>
+          EcoTrack bukan aplikasi yang secara khusus ditujukan untuk
+          anak-anak.
+        </p>
+
+        <p>
+          Kami tidak dengan sengaja mengumpulkan informasi pribadi sensitif
+          dari anak-anak.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Perubahan Kebijakan Privasi</h2>
+
+        <p>
+          Kebijakan Privasi ini dapat diperbarui dari waktu ke waktu
+          untuk menyesuaikan perubahan fitur, teknologi, atau persyaratan
+          layanan.
+        </p>
+
+        <p>
+          Perubahan akan dicantumkan pada halaman Kebijakan Privasi ini
+          dengan memperbarui tanggal terakhir diperbarui.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Hubungi Kami</h2>
+
+        <div class="contact">
+          <p><strong>Nama Pengembang:</strong> April Ade Putri</p>
+          <p><strong>Nama Aplikasi:</strong> EcoTrack</p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:emailkamu@example.com">
+              emailkamu@example.com
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Persetujuan</h2>
+
+        <p>
+          Dengan menggunakan EcoTrack, pengguna dianggap telah membaca
+          dan memahami Kebijakan Privasi ini serta menyetujui pengelolaan
+          data sebagaimana dijelaskan dalam kebijakan ini.
+        </p>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>
+      © 2026 <strong>EcoTrack</strong>. All rights reserved.
+    </p>
+  </footer>
+
+</body>
+</html>
